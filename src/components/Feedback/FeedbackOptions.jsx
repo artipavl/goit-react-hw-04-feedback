@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import css from 'components/Feedback/Feedback.module.css';
 
 export const FeedbackOptions = ({ appFeedbeck }) => {
@@ -32,7 +32,6 @@ export const FeedbackOptions = ({ appFeedbeck }) => {
   );
 };
 
-// FeedbackOptions.propTypes = {
-//   options: PropTypes.arrayOf(PropTypes.string).isRequired,
-//   appFeedbeck: PropTypes.func.isRequired,
-// };
+FeedbackOptions.propTypes = {
+  appFeedbeck: PropTypes.func.isRequired,
+};
